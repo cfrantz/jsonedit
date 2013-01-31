@@ -1,0 +1,105 @@
+table.jsonedit {
+	font-family: Arial, Veranda, Helvetica, sans-serif;
+	font-size: 12pt;
+	border: solid 1px #888;
+	background-color: #fff;
+	width: 100%;
+	border-spacing: 0px;
+}
+
+table.jsonedit th {
+	font-weight: bold;
+	background-color: #888;
+	color: #fff;
+	text-align: left;
+}
+
+span.jsonctl {
+	font-family: Courier, sans-serif;
+}
+
+span.jsonctl a {
+	text-decoration: none;
+	color: #fff;
+}
+
+table.jsonedit td {
+	//font-family: Courier, sans-serif;
+	vertical-align: top;
+}
+
+table.jsonedit td.jsonidx {
+	width: 10%;
+}
+
+table.jsonedit td.jsonkey {
+	width: 10%;
+}
+
+table.jsonedit td.jsonval {
+	border-left: solid 1px #888;
+}
+
+table.jsonedit tr.odd {
+	background-color: #fff;
+}
+
+table.jsonedit tr.even {
+	background-color: #bbb;
+}
+
+.jsonmenu {
+	-webkit-user-select: none;
+	display: none
+	font-family: Arial, Veranda, Helvetica, sans-serif;
+	font-size: 11pt;
+	position: absolute;
+	left: 100px;
+	top: 100px;
+	min-width: 100px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #f7f3f7;
+	border: 2px solid #f7f7f7;
+	outline: 1px solid #999;
+}
+
+.jsonmenu > li {
+	margin: 0 0 0 0;
+	padding 1px;
+	background-repeat: no-repeat;
+}
+
+.jsonmenu > li > a {
+	position: relative;
+	display: block;
+	padding 3px 3px 3px 3px;
+	color: ButtonText;
+	text-decoration: none;
+	margin: 1px;
+}
+
+.jsonmenu > li > a:hover {
+	border: 1px solid #fffbff;
+	outline: 1px solid #b5d3ff;
+	margin: 0;
+	background: linear-gradient(top, rgba(239, 239, 255, 0.5) 0%, rgba(223, 223, 255, 0.5) 100%); 
+	cursor: default;
+}
+
+.jsonmenu > .jsonmenutitle {
+	background: #777;
+	position: relative;
+	cursor: default;
+	padding 3px 3px 3px 3px;
+	color: #fff;
+}
+
+.jsonmenu > .jsonmenusep {
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #fff;
+	height: 0;
+	padding: 0;
+	margin: 5px 0 5px 0;
+}
